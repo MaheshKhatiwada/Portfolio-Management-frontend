@@ -1,0 +1,69 @@
+.stockForm{
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+    margin:auto;
+    margin-top: 30vh;
+    width: 400px;
+    box-shadow: -3px -3px 3px #aeaeae,3px 3px 3px #babecc;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:white;
+}
+
+ h2{
+    color:red;
+    text-align: center;
+    
+
+} 
+.stockForm__form{
+    text-align: center;
+}
+
+.stockForm__form>input{
+    border-radius: 5px;
+    height: 30px;
+    margin: 8px;
+    width:300px;
+    border: none;
+    font-size: medium;
+    border-bottom: 2px solid red;
+    
+}
+.stockForm__form>select{
+    border-radius: 5px;
+    height: 30px;
+    margin: 8px;
+    width:305px;
+    border: none;
+    font-size: medium;
+    border-bottom: 2px solid red;
+    background-color: white;
+
+}
+
+::placeholder{
+    color:black;
+   
+    
+}
+ 
+button{
+    border:0;
+    outline: 0;
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+    height: 2rem;
+    width: 50%;
+    cursor: pointer;
+    border-radius:2rem;
+    border: none;
+    color: black;
+    box-shadow:-3px -3px 3px #fff,5px 5px 5px #babecc;
+    text-shadow: 1px 1px 0 #fff;
+}
+button:hover{
+    box-shadow: inset -5px -5px 5px #fff, inset 5px 5px 5px #babecc;
+}

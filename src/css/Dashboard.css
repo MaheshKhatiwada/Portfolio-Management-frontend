@@ -1,0 +1,9 @@
+.dashboard{
+    margin-top: 150px;
+    margin-bottom:50px;
+}
+.dashboard__table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; 
+  }
